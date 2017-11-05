@@ -1,0 +1,44 @@
+.services{
+	display: -webkit-flex; /* Safari */
+    display: flex;
+}
+
+.services div{
+	-webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;	
+}
+
+.modal-body .form-group{
+	text-align: left;
+}
+
+
+.slider-container {
+    margin: 106px auto 0 auto;
+    -moz-box-shadow: 0 -5px 15px 0 rgba(0,0,0,.05) inset;
+    -webkit-box-shadow: 0 -5px 15px 0 rgba(0,0,0,.05) inset;
+    box-shadow: 0 -5px 15px 0 rgba(0,0,0,.05) inset;
+}
+
+.service:hover{
+	background : #fe503e;
+	color: #fff;
+}
+
+.service:hover .service-icon{
+	color: #fff;
+}
+
+.service:hover h3 {
+    color: #fff;
+}
+
+.service:hover a.big-link-1{
+	outline : 1px solid #fff;
+}
+
+.page-title-container {
+    margin: 106px auto 0 auto;
+    padding: 35px 0 0 0;
+}
